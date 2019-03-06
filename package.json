@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "@riddles/gulp-copy@1.1.1",
+      "/Users/jimvaneeden/development/aion-matchviewer"
+    ]
+  ],
+  "_development": true,
+  "_from": "@riddles/gulp-copy@1.1.1",
+  "_id": "@riddles/gulp-copy@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-GmRLdmVtSsm46ps57G4PQaJ/Exo=",
+  "_location": "/@riddles/gulp-copy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@riddles/gulp-copy@1.1.1",
+    "name": "@riddles/gulp-copy",
+    "escapedName": "@riddles%2fgulp-copy",
+    "scope": "@riddles",
+    "rawSpec": "1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "1.1.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@riddles/gulp-copy/-/gulp-copy-1.1.1.tgz",
+  "_spec": "1.1.1",
+  "_where": "/Users/jimvaneeden/development/aion-matchviewer",
+  "author": {
+    "name": "Niko van Meurs",
+    "email": "niko@riddles.io"
+  },
+  "bugs": {
+    "url": "https://github.com/riddlesio/gulp-copy/issues"
+  },
+  "dependencies": {
+    "gulp-changed": "^1.3.0",
+    "merge-stream": "^1.0.1"
+  },
+  "description": "Gulp task for copying static assets",
+  "devDependencies": {
+    "@riddles/npm-discord-notifier": "^1.0.6"
+  },
+  "homepage": "https://github.com/riddlesio/gulp-copy",
+  "keywords": [
+    "Gulp",
+    "copy"
+  ],
+  "license": "LicenceRef-LICENSE",
+  "main": "index.js",
+  "name": "@riddles/gulp-copy",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riddlesio/gulp-copy.git"
+  },
+  "scripts": {
+    "postpublish": "notify-discord -c \"155423979354456064\" -t \"MTU0NDg5NTMyNTI2MzYyNjI0.CbuABw.yKQdIkpHxxU7ykeCSx9HIEMtkqA\""
+  },
+  "version": "1.1.1"
+}
